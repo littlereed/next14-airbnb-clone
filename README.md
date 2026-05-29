@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fullstack Booking Platform
 
-## Getting Started
+Airbnb-inspired fullstack booking platform built with Next.js 13 App Router.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+* Next.js 14
+* React
+* TypeScript
+* Prisma
+* MongoDB
+* NextAuth
+* Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* User authentication
+* Property listing
+* Booking system
+* Search functionality
+* Favorite properties
+* Responsive design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Overview
 
-## Learn More
+This project is a fullstack booking platform inspired by Airbnb.
 
-To learn more about Next.js, take a look at the following resources:
+Users can:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Create accounts
+* Login securely
+* Add property listings
+* Search properties
+* Make reservations
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technical Highlights
 
-## Deploy on Vercel
+* SSR with Next.js App Router
+* Authentication using NextAuth
+* Database access with Prisma ORM
+* MongoDB integration
+* Responsive UI design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Screenshots
+![Home Page](./screenshots/airbnb-home.jpg)
+![Listing Detail](./screenshots/airbnb-detail.jpg)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Demo
+
+Deployment currently unavailable.
+
+## Known Issues
+
+Some third-party services may not work properly due to free-tier limitations.
+
+## Project Status
+
+This project is mainly for portfolio and technical demonstration purposes.
+
+Some pages or UI sections may not be fully available in the deployed version due to deployment environment, database connection, authentication settings, or free-tier service limitations.
+
+Screenshots are included to demonstrate the main UI and application flow.
